@@ -1,0 +1,102 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="953674843" file="C:\Users\Krystian\Downloads\apka\PIWAPP.prj" location="C:\Users\Krystian\Downloads\apka" name="PIWAPP" target="target.mlapps" target-name="Package App">
+    <param.appname>PIWAPP</param.appname>
+    <param.authnamewatermark>Piotr Dregan, Krystian Krasucki</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon>${PROJECT_ROOT}\PIWAPP_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\PIWAPP_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\PIWAPP_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\PIWAPP_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary />
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\ICON.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output />
+    <param.guid>8ec93387-9cc2-488a-956f-ffc443d854bb</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\PIWPAWAPP.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\arrow.png</file>
+      <file>${PROJECT_ROOT}\Background.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables />
+    <workflow />
+    <matlab>
+      <root>H:\Matlab</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
