@@ -39,6 +39,10 @@ należących do odpowiednich grup. Następnie obwód jest wyznaczany jako jako s
 
 gdzie : </br>
 	P1 - liczba wystąpień czwórek, w których suma pikseli wynosi 1 </br>
+	<img src="/Example/1000.png" width="50" heigth="50" /> </br>
 	P2 - liczba wystąpień czwórek, w których suma pikseli wynosi 2 i nie są one położone na ukos </br>
+	<img src="/Example/1100.png" width="50" heigth="50" /> </br>
 	P3 - liczba wystąpień czwórek, w których suma pikseli wynosi 3 </br>
-	PD - liczba wystąpień czwórek, w których suma pikseli wynosi 2 i są one położone na ukos
+	<img src="/Example/1101.png" width="50" heigth="50" /> </br>
+	PD - liczba wystąpień czwórek, w których suma pikseli wynosi 2 i są one położone na ukos </br>
+	<img src="/Example/1010.png" width="50" heigth="50" />
